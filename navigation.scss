@@ -1,0 +1,24 @@
+// Navigation sometimes is a mess, there more levels there are. Use the > css selector when possible
+
+// you should to the following, if your reset does not do this. It resets the margins and paddings from lists in navigation elements to zero
+
+nav ul,
+nav li,
+.mod_sitemap ul,
+.mod_sitemap li {
+  display: block;
+}
+
+.mod_navigation {
+
+  .level_1 {}
+  
+  .level_1 > li {}
+  
+  .level_1 > li > a, .level_1 > li > span {}
+  
+  .level_1 > li > a {}
+  
+  .level_1 > li > span{}
+  
+}
