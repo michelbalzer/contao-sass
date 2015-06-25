@@ -9,16 +9,81 @@ nav li,
   display: block;
 }
 
+// this is a template for the overall container and the first level
+// You can copy it to style other levels, too.
+
 .mod_navigation {
 
   .level_1 {}
   
-  .level_1 > li {}
+  .level_1 > li {
+
+    &.submenu {}
+    
+    &.sibling {}
+    
+    &.trail {}
+    
+    &.first,
+    &:first-child {}
+    
+    &.last,
+    &:last-child {}
+    
+  }
   
-  .level_1 > li > a, .level_1 > li > span {}
+  // now we want't to style the
+  // if there is similar styling to <a> and <span> elements, you can set it here
   
-  .level_1 > li > a {}
+  .level_1 > li > a,
+  .level_1 > li > span {
+
+    &.sibling {}
+    
+    &.submenu {}
+    
+    &.active {}
+    
+    &.trail {}
+    
+    &.first {}
+    
+    &.last {}
+    
+  }
   
-  .level_1 > li > span{}
+  // for more specific styling you can also style <a> and <span> more seperately
   
+  .level_1 > li > a {
+
+    &.sibling {}
+    
+    &.submenu {}
+    
+    &.active {}
+    
+    &.trail {}
+    
+    &.first {} 
+    
+    &.last {} 
+    
+  }
+  
+  .level_1 > li > span{
+
+   &.sibling {}
+
+   &.submenu {}
+
+   &.active {}
+
+   &.trail {}
+
+   &.first {} 
+
+   &.last {} 
+
+ }
+
 }
