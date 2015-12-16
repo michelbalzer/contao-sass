@@ -1,20 +1,28 @@
+// Shared elements and classes
 [class*="mod_news"] {
   .back {}
 }
 
+// News List
 .mod_newslist {
 
 }
 
+// News Archive
 .mod_newsarchive {
 
 }
 
+// News Reader
 .mod_newsreader {
 
 }
 
+// News Menü
+// this is available as a list view (month and year) or in a day .minicalender which comes after the .mod_newsmenu block
 .mod_newsmenu {
+
+  // List with years in year mode
   .level_1 {
     > li {}
     > li > span {}
@@ -36,6 +44,7 @@
 
   }
 
+  // List with months in year mode
   .level_2 {
     li {
 
@@ -61,6 +70,7 @@
   }
 }
 
+// The minicalender in the newsmenu if the newsmenus mode is set to "day"
 .minicalender {
   // Header
   th {
@@ -92,6 +102,8 @@
   .weekend {
 
   }
+
+  // Table Week Rows
   .week_0 {
 
   }
