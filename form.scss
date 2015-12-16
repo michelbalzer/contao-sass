@@ -1,0 +1,77 @@
+.formbody {}
+
+// All common text input fields from the generator
+
+.text,
+.textarea,
+.captcha {}
+
+.widget {}
+.widget label {}
+.widget input {}
+.widget textarea {}
+
+// <fieldset>
+// beware of the fieldsets *_container in checkbox and radio widgets
+fieldset {}
+legend {}
+
+// Widgets
+
+//// Captcha
+.widget-captcha {}
+  .widget-captcha label {}
+  .captcha {}
+  .captcha-text {}
+
+//// <input type="checkbox">
+.widget-checkbox {}
+  .checkbox_container {}
+    .checkbox_container legend {}
+    .checkbox_container span {}
+    .checkbox_container span input {}
+    .checkbox_container span label {}
+
+//// like .ce_texts for forms
+.widget-explanation {}
+.widget-headline {}
+
+//// <input type="password">
+.widget-password {}
+.widget-password-confirm {}
+
+//// <input type="radio">
+.widget-radio {}
+  .radio_container {}
+    .radio_container legend {}
+    .radio_container span {}
+    .radio_container span input {}
+    .radio_container span label {}
+
+//// <select> - maybe add .widget-select in front of select
+.widget-select {}
+  select {}
+
+//// simple text <input> and it's HTML5 specialized types
+.widget-text {}
+.text {}
+[type="email"] {}
+[type="number"] {}
+[type="tel"] {}
+[type="text"] {}
+[type="url"] {}
+
+//// <textarea>
+.widget-textarea {}
+textarea {}
+
+//// <input type="file">
+.widget-upload {}
+  .upload {} // or [input="file"]
+
+//// mandatory widgets
+.widget.mandatory {}
+
+//// Submit input
+.submit_container {}
+  .submit {}
