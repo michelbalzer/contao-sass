@@ -11,5 +11,24 @@
 }
 
 .mod_newsmenu {
+  .level_1 {
+    > li {}
+    > li > span {}
+  }
 
+  .year {
+
+  }
+
+  .year > .active {
+
+  }
+
+  .year > a {
+
+  }
+
+  .the_year {
+
+  }
 }
