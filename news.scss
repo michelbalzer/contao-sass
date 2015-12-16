@@ -31,4 +31,28 @@
   .the_year {
 
   }
+
+  .level_2 {
+    li {
+
+    }
+
+    .active {
+
+    }
+
+    .active .active {
+
+    }
+
+    .first,
+    :first-child {
+
+    }
+
+    .last,
+    :last-child {
+
+    }
+  }
 }
