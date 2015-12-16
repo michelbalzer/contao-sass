@@ -1,6 +1,8 @@
-// Navigation sometimes is a mess, the more levels there are. Use the > css selector when possible
+// Navigation can make a mess, the more levels there are. Use the > CSS selector when possible
 
-// you should to the following, if your reset does not do this. It resets the margins and paddings from lists in navigation elements to zero
+// you should to the following, if your reset does not do this. It resets the margins and paddings from lists in navigation elements to zero and also change the display type
+// You can also add the selectors for the Event and News Menus here
+// .mod_newsmemu ul, .mod_newsmenu li, mod_eventmenu ul, .mod_eventmenu li
 
 nav ul,
 nav li,
@@ -15,61 +17,61 @@ nav li,
 .mod_navigation {
 
   .level_1 {}
-  
+
   .level_1 > li {
 
     &.submenu {}
-    
+
     &.sibling {}
-    
+
     &.trail {}
-    
+
     &.first,
     &:first-child {}
-    
+
     &.last,
     &:last-child {}
-    
+
   }
-  
+
   // now we want't to style the
   // if there is similar styling to <a> and <span> elements, you can set it here
-  
+
   .level_1 > li > a,
   .level_1 > li > span {
 
     &.sibling {}
-    
+
     &.submenu {}
-    
+
     &.active {}
-    
+
     &.trail {}
-    
+
     &.first {}
-    
+
     &.last {}
-    
+
   }
-  
+
   // for more specific styling you can also style <a> and <span> more seperately
-  
+
   .level_1 > li > a {
 
     &.sibling {}
-    
+
     &.submenu {}
-    
+
     &.active {}
-    
+
     &.trail {}
-    
-    &.first {} 
-    
-    &.last {} 
-    
+
+    &.first {}
+
+    &.last {}
+
   }
-  
+
   .level_1 > li > span{
 
    &.sibling {}
@@ -80,9 +82,9 @@ nav li,
 
    &.trail {}
 
-   &.first {} 
+   &.first {}
 
-   &.last {} 
+   &.last {}
 
  }
 
