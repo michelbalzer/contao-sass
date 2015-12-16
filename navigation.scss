@@ -13,8 +13,7 @@ nav li,
   display: block;
 }
 
-// this is a template for the overall container and the first level
-// You can copy it to style other levels, too.
+// this is a template for the overall container and the first level. You can copy it to style other levels, too. Change the .mod_navigation to your Navigation module class if needed
 
 .mod_navigation {
 
@@ -35,9 +34,6 @@ nav li,
     &:last-child {}
 
   }
-
-  // now we want't to style the
-  // if there is similar styling to <a> and <span> elements, you can set it here
 
   .level_1 > li > a,
   .level_1 > li > span {
