@@ -1,4 +1,4 @@
-// Shared elements and classes
+// Shared elements and classes from modules
 [class*="mod_news"] {
   .back {
 
@@ -10,7 +10,7 @@
   }
 }
 
-// News List
+// News List module
 .mod_newslist {
 
   // Headline of the News List module, modify to your headline hierarchy selection
@@ -19,7 +19,7 @@
   }
 }
 
-// News Archive
+// News Archive module
 .mod_newsarchive {
   // Headline of the News Archive module, modify to your headline hierarchy selection
   > h2 {
@@ -27,7 +27,7 @@
   }
 }
 
-// News Reader
+// News Reader module
 .mod_newsreader {
 
   // Headline of the News Reader module, modify to your headline hierarchy selection
@@ -36,8 +36,8 @@
   }
 }
 
-// News Menü
-// this is available as a list view (month and year) or in a day .minicalender which comes after the .mod_newsmenu block
+// News Menu module
+// this is available as a list view (month and year) or in a day (.minicalender) which comes after the .mod_newsmenu block
 .mod_newsmenu {
 
   // Headline of the News Menu module, modify to your headline hierarchy selection
