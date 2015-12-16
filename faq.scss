@@ -83,5 +83,67 @@
 
 // FAQ Reader
 .mod_faqreader {
+  > h2 {
 
+  }
+
+  h1 {
+
+  }
+
+  .ce_text {
+
+  }
+
+  // FAQ Entry Image
+  .image_container {
+
+  }
+
+  .image_container a {
+
+  }
+
+  .image_container .caption {
+
+  }
+
+  // Enclosures
+  .enclosure {
+
+  }
+
+  .enclosure p {
+
+  }
+
+  .enclosure .mime_icon {
+
+  }
+
+  .enclosure a {
+
+  }
+
+  // Author and last modified info
+  .info {
+
+  }
+
+  // Link to page top
+  .toplink {
+
+  }
+
+  .toplink a {
+
+  }
+
+  // Comments to FAQ entry
+
+  .ce_comments {
+
+    // well, here you should maintain a inherited look to all comment views, see comments.scss for this
+
+  }
 }
