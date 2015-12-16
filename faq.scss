@@ -1,143 +1,81 @@
 // FAQ List
 .mod_faqlist {
 
-  > h2 {
+  > h2 {}
 
-  }
+  ul {}
 
-  ul {
+  li {}
 
-  }
-
-  li {
-
-  }
-
-  li a {
-
-  }
+  li a {}
 }
 
 // FAQ Page
 .mod_faqpage {
-  article {
+  article { }
 
-  }
+  section {}
 
-  section {
+  .section h3 {}
 
-  }
-
-  .section h3 {
-
-  }
-
-  .ce_text {
-
-  }
+  .ce_text {}
 
   // FAQ Entry Image
-  .image_container {
+  .image_container { }
 
-  }
+  .image_container a {}
 
-  .image_container a {
-
-  }
-
-  .image_container .caption {
-
-  }
+  .image_container .caption {}
 
   // Enclosures
-  .enclosure {
+  .enclosure {}
 
-  }
+  .enclosure p {}
 
-  .enclosure p {
+  .enclosure .mime_icon {}
 
-  }
-
-  .enclosure .mime_icon {
-
-  }
-
-  .enclosure a {
-
-  }
+  .enclosure a {}
 
   // Author and last modified info
-  .info {
-
-  }
+  .info {}
 
   // Link to page top
-  .toplink {
+  .toplink {}
 
-  }
-
-  .toplink a {
-
-  }
+  .toplink a {}
 }
 
 // FAQ Reader
 .mod_faqreader {
-  > h2 {
+  > h2 {}
 
-  }
+  h1 {}
 
-  h1 {
-
-  }
-
-  .ce_text {
-
-  }
+  .ce_text {}
 
   // FAQ Entry Image
-  .image_container {
+  .image_container {}
 
-  }
+  .image_container a {}
 
-  .image_container a {
-
-  }
-
-  .image_container .caption {
-
-  }
+  .image_container .caption {}
 
   // Enclosures
-  .enclosure {
+  .enclosure {}
 
-  }
+  .enclosure p {}
 
-  .enclosure p {
+  .enclosure .mime_icon {}
 
-  }
-
-  .enclosure .mime_icon {
-
-  }
-
-  .enclosure a {
-
-  }
+  .enclosure a {}
 
   // Author and last modified info
-  .info {
-
-  }
+  .info {}
 
   // Link to page top
-  .toplink {
+  .toplink {}
 
-  }
-
-  .toplink a {
-
-  }
+  .toplink a {}
 
   // Comments to FAQ entry
 

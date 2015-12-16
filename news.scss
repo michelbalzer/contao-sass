@@ -1,39 +1,29 @@
 // Shared elements and classes from modules
 [class*="mod_news"] {
-  .back {
-
-  }
+  .back {}
 
   // For shared News Module Headline styles
-  > h2 {
-
-  }
+  > h2 {}
 }
 
 // News List module
 .mod_newslist {
 
   // Headline of the News List module, modify to your headline hierarchy selection
-  > h2 {
-
-  }
+  > h2 {}
 }
 
 // News Archive module
 .mod_newsarchive {
   // Headline of the News Archive module, modify to your headline hierarchy selection
-  > h2 {
-
-  }
+  > h2 {}
 }
 
 // News Reader module
 .mod_newsreader {
 
   // Headline of the News Reader module, modify to your headline hierarchy selection
-  > h2 {
-
-  }
+  > h2 {}
 }
 
 // News Menu module
@@ -41,9 +31,7 @@
 .mod_newsmenu {
 
   // Headline of the News Menu module, modify to your headline hierarchy selection
-  > h2 {
-
-  }
+  > h2 {}
 
   // List with years in year mode
   .level_1 {
@@ -51,211 +39,120 @@
     > li > span {}
   }
 
-  .year {
+  .year {}
 
-  }
+  .year > .active {}
 
-  .year > .active {
+  .year > a {}
 
-  }
-
-  .year > a {
-
-  }
-
-  .the_year {
-
-  }
+  .the_year {}
 
   // List with months in year mode
   .level_2 {
-    li {
+    li {}
 
-    }
+    .active {}
 
-    .active {
-
-    }
-
-    .active .active {
-
-    }
+    .active .active {}
 
     .first,
-    :first-child {
-
-    }
+    :first-child { }
 
     .last,
-    :last-child {
-
-    }
+    :last-child {}
   }
 }
 
 // The minicalender in the newsmenu if the newsmenus mode is set to "day"
 .minicalender {
   // Header
-  th {
+  th {}
 
-  }
-  .previous {
+  .previous {}
 
-  }
-  .current {
+  .current {}
 
-  }
-  .next {
-
-  }
+  .next {}
 
   // Calender Data
-  .weekend {
+  .weekend {}
 
-  }
-  .active {
+  .active {}
 
-  }
-  .active a {
+  .active a {}
 
-  }
-  .days {
+  .days {}
 
-  }
-  .weekend {
-
-  }
+  .weekend {}
 
   // Table Week Rows
-  .week_0 {
-
-  }
-  .week_1 {
-
-  }
-  .week_2 {
-
-  }
-  .week_3 {
-
-  }
+  .week_0 {}
+  .week_1 {}
+  .week_2 {}
+  .week_3 {}
 }
 
 .layout_short {
-  .info {
+  .info {}
 
-  }
+  .info time {}
 
-  .info time {
+  h2 {}
 
-  }
+  .teaser {}
 
-  h2 {
+  .more {}
 
-  }
-
-  .teaser {
-
-  }
-
-  .more {
-
-  }
-
-  .more a {
-
-  }
+  .more a {}
 }
 
 .layout_simple {
-  time {
-
-  }
-  h2 {
-
-  }
-  h2 a {
-
-  }
+  time {}
+  h2 {}
+  h2 a {}
 }
 
 .layout_latest {
-  .info {
+  .info {}
 
-  }
-
-  .info time {
-
-  }
+  .info time {}
 
   // FAQ Entry Image
-  .image_container {
+  .image_container {}
 
-  }
+  .image_container a {}
 
-  .image_container a {
+  .image_container .caption {}
 
-  }
+  h2 {}
 
-  .image_container .caption {
+  .teaser {}
 
-  }
+  .more {}
 
-  h2 {
-
-  }
-
-  .teaser {
-
-  }
-
-  .more {
-
-  }
-
-  .more p {
-
-  }
+  .more p {}
 }
 
 .layout_full {
-  > h1 {
+  > h1 {}
 
-  }
+  .info {}
 
-  .info {
+  .info time {}
 
-  }
+  > h2 {}
 
-  .info time {
+  .enclosure {}
 
-  }
+  .enclosure p {}
 
-  > h2 {
+  .enclosure .mine_icon {}
 
-  }
-
-  .enclosure {
-
-  }
-
-  .enclosure p {
-
-  }
-
-  .enclosure .mine_icon {
-
-  }
-
-  .enclosure a {
-
-  }
+  .enclosure a {}
 }
 
 // Archive specific styles
 
 // If you have a News List/Archive modul with multiple selected News Archives, you can style the news entries dependant of their archive ID with the class .arc_* – replace the * with your archive id
 
-.arc_* {
-
-}
+.arc_* {}
