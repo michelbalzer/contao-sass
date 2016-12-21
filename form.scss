@@ -11,14 +11,17 @@
 .widget input {}
 .widget textarea {}
 
-// <fieldset>
-// beware of the fieldsets *_container in checkbox and radio widgets
-fieldset {}
-legend {}
+
+// Fieldset and legends
+// does not match fieldset and legends from .radio_container and .checkbox_container
+
+.formbody > fieldset {}
+.formbody > fieldset > legend {}
 
 // Widgets
 
 //// Captcha
+
 .widget-captcha {}
   .widget-captcha label {}
   .captcha {}
