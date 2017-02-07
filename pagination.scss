@@ -5,22 +5,26 @@
 .pagination {
   
   p { // "Page x from y"
+    float: right;
   }
   
   ul {
+    float: left;
   }
   
   ul li {
+    display: inline-block;
   }
   
   li a,
   li span {
+    display: block;
   }
   
   li {
   
     .previous { // Previous Page
-    } 
+    }
     
     .next { // Next Page
     }
@@ -29,5 +33,5 @@
     }
     
   }
-  
+ 
 }
