@@ -1,1 +1,33 @@
+/*
+  This is used on Event and News Lists and Archives
+*/
 
+.pagination {
+  
+  p { // "Page x from y"
+  }
+  
+  ul {
+  }
+  
+  ul li {
+  }
+  
+  li a,
+  li span {
+  }
+  
+  li {
+  
+    .previous { // Previous Page
+    } 
+    
+    .next { // Next Page
+    }
+    
+    .current { // Current Page
+    }
+    
+  }
+  
+}
